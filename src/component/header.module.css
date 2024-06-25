@@ -1,0 +1,37 @@
+.list{
+    list-style: none;
+}
+
+
+.list li{
+    margin: 7px 0px 7px 0px;
+    color: rgb(142, 124, 124);
+}
+
+.userprofile{
+    margin-left: 1000px;
+    border: 1px solid rgb(241, 231, 231);
+    border-radius: 50px;
+    height: 40px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+}
+.userprofile span:first-child {
+    padding: 10px;
+    font-size: 25px;
+    color: gray;
+}
+
+.userprofile span:nth-child(2){
+ font-size: 10px;
+ color: white;
+ margin-left: 1px;
+}
+.userprofile span:nth-child(3){
+    margin-left: 2px;
+    font-size: 10px;
+    color : white
+}
